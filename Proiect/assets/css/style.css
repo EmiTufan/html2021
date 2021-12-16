@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#showcase .bg-image {
+  position: absolute;
+  background-image: url(../images/imgbg3.jfif);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
