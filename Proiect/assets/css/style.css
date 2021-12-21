@@ -1,11 +1,112 @@
-* {
-  margin: 0px;
-  padding: 0px;
+body {
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background: #333333;
+  color: #ffff ff;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+.btn {
+  display: inline-block;
+  background: #fddd00;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666666;
+  margin: 0.5em 0;
+  transition: all ease 0.5s;
+}
+
+.btn:hover {
+  background: #eaeaea;
+  color: #fddd00;
+  padding: 1em 3em;
+}
+#showcase {
+  min-height: 450px;
+  color: #ffffff;
+  text-align: center;
 }
 #showcase .bg-image {
   position: absolute;
-  background-image: url(../images/imgbg3.jfif);
-  width: 100%;
-  height: 100%;
+  background: #333333 url("../images/portofoliu/banner.jpg");
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.2;
+}
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+#section-a {
+  background: #eaeaea;
+  color: #333333;
+  padding-bottom: 2em;
+}
+#section-b {
+  padding: 2em 1em 1em;
+}
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#section-b ul li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+  width: 33%;
+  float: left;
+}
+#section-b ul li img {
+  min-height: 450px;
+}
+.card-content {
+  padding: 1.5em;
+}
+#section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+#section-d .box:first-child {
+  background: #2690d4;
+}
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
 }
